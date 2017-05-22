@@ -5,6 +5,11 @@
 论  坛: http://www.zixue.it
 ****/
 
-echo 'sdf';
+if($_POST['id'] == 2 && $_POST['name']=='admin') {
+	echo 2;
+}else {
+	echo '啥';
+}
+
 
 ?>
